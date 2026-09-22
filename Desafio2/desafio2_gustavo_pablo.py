@@ -1,9 +1,9 @@
 """
-sub_tanh_prof.py — tanh com inicializacao gaussiana calibrada (s^2 =
-1/(fan_in*E[tanh(z)^2]), Monte Carlo, vies zero, metade na camada de
-logits), e o desvio de TODAS as camadas multiplicado por
-0.01 ** (1/(2*n_camadas)). Isso distribui um "orcamento" fixo de
-amortecimento total (fator 0.01 acumulado da entrada ate a saida) igualmente
+desafio2_gustavo_pablo.py — tanh com inicializacao gaussiana calibrada 
+(s^2 = 1/(fan_in*E[tanh(z)^2]), Monte Carlo, vies zero, metade na camada de logits), 
+e o desvio de TODAS as camadas multiplicado por 0.01 ** (1/(2*n_camadas)). 
+Isso distribui um "orcamento" fixo de amortecimento total 
+(fator 0.01 acumulado da entrada ate a saida) igualmente
 em log-espaco entre as n_camadas camadas, seja qual for a profundidade.
 """
 import math
