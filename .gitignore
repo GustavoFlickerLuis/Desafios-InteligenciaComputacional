@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Ambiente virtual
+.venv/
+
+# PyCharm
+.idea/
+
+# Resultados de treino
+runs/
+checkpoints/
+*.pt
+
+# Desafio 3: arrays do dataset (o meta.json é versionado) e logs de rascunho
+desafio3/dados/*
+!desafio3/dados/meta.json
+desafio3/logs/rascunho/
+desafio3/pesos/
